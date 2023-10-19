@@ -39,9 +39,10 @@ button{cursor: pointer;}
 .main-header>.container{display: flex;justify-content: space-between;}
  
  .main-nav{display: flex;
-align-items: center;} 
+align-items: center;
+gap:40px;} 
  .menu{display: flex; 
- gap:0 40px;} 
+ gap:40px;} 
 .menu-link:focus, .menu-link:hover{color:#404bbf; }
     .menu-link-studio:active{color:#404bbf;}
         .menu-link{color: #2E2F42;
@@ -50,8 +51,8 @@ align-items: center;}
             font-style: normal;
             font-weight: 500;
             line-height: 1.5;
-            letter-spacing: 0.02em;}
-            .menu-item{padding: 24px 0;}
+            letter-spacing: 0.02em;
+        padding: 24px 0;}
         .adress-header-list:hover, .adress-header-list:focus{color:#404bbf; }
 .logo{color: #4D5AE5;
     font-family: 'Raleway',sans-serif;
@@ -107,7 +108,7 @@ align-items: center;}
         margin-right: auto;}
 .hero-button{color: #ffffff;
     display: block;
-    min-width: 196px;
+    min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -186,7 +187,8 @@ margin-bottom: 8px;}
                 border-radius: 0px 0px 4px 4px;}
                     .team-nampos{padding:32px 0}
                         /* Our Portfolio */
-                        .portfolio{padding-top: 120px;}
+                        .portfolio{padding-top: 120px;
+                        padding-bottom: 120px;}
                         .port-list{display: flex;
                         column-gap: 24px;
                     row-gap: 48px;
