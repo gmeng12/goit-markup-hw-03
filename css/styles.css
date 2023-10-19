@@ -30,7 +30,6 @@ body{font-family: 'Roboto', sans-serif; color: #434455;background-color: #ffffff
 .link{text-decoration: none;}
 button{cursor: pointer;}
 
-/* .section{padding-top: 60px;padding-bottom: 60px;} */
 /* Styles header */
 .main-header {
    
@@ -39,8 +38,7 @@ button{cursor: pointer;}
 .main-header>.container{display: flex;justify-content: space-between;}
  
  .main-nav{display: flex;
-align-items: center;
-gap:40px;} 
+align-items: center;} 
  .menu{display: flex; 
  gap:40px;} 
 .menu-link:focus, .menu-link:hover{color:#404bbf; }
@@ -80,7 +78,7 @@ gap:40px;}
             letter-spacing: 0.02em;}
             .adress-header-list{
                 display: flex;
-                gap:0 40px;
+                gap:40px;
                 
                 color: #434455;
                 font-family: 'Roboto',sans-serif;
