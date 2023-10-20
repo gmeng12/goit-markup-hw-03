@@ -51,7 +51,7 @@ align-items: center;}
             line-height: 1.5;
             letter-spacing: 0.02em;
         padding: 24px 0;}
-        .adress-header-list:hover, .adress-header-list:focus{color:#404bbf; }
+        .adress-header-link:hover, .adress-header-link:focus{color:#404bbf; }
 .logo{color: #4D5AE5;
     font-family: 'Raleway',sans-serif;
     font-size: 18px;
@@ -79,7 +79,6 @@ align-items: center;}
             .adress-header-list{
                 display: flex;
                 gap:40px;
-                
                 color: #434455;
                 font-family: 'Roboto',sans-serif;
                 font-size: 16px;
@@ -89,7 +88,8 @@ align-items: center;}
                 letter-spacing: 0.02em;}
                 .adress-header{
                     font-style: normal;}
-                                        .adress-header-item{padding: 24px 0;}
+                .adress-header-item{padding: 24px 0;}
+                .adress-header-link {color: #434455;} 
                 /* Hero */
                 .hero{background: #2E2F42;
                 padding: 188px 0;}
@@ -103,9 +103,11 @@ align-items: center;}
                     letter-spacing: 0.02em;
                 max-width: 496px;
             margin-left: auto;
-        margin-right: auto;}
+        margin-right: auto;
+    margin-bottom: auto;}
 .hero-button{color: #ffffff;
     display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -136,7 +138,7 @@ padding: 16px 32px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-    display: flex;
+    
 margin-bottom: 8px;}
         .ben-text{color: #434455;
             font-family: Roboto, sans-serif;
@@ -181,7 +183,6 @@ margin-bottom: 8px;}
                     }
                         .team-item{background-color: #ffffff;
                         width: calc((100%-3*24px)/4);
-                    padding-bottom: 32px;
                 border-radius: 0px 0px 4px 4px;}
                     .team-nampos{padding:32px 0}
                         /* Our Portfolio */
@@ -216,8 +217,7 @@ margin-bottom: 8px;}
                                     letter-spacing: 0.02em;
                                }
                                 
-                                    .port-item{padding-bottom: 32px;
-                                    border-bottom: 1px solid #E7E9FC;
+                                    .port-item{
                             width: calc((100% - 48px) / 3);}
                             .port-category{padding: 32px 16px;
                             border: 1px solid #e7e9fc;
